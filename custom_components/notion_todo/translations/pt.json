@@ -1,0 +1,18 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "description": "Caso precise de ajuda visite: https://github.com/JanGiese/notion_todo",
+                "data": {
+                    "access_token": "Notion bearer token",
+                    "database_id": "Identificador de base de dados"
+                }
+            }
+        },
+        "error": {
+            "auth": "TOken errado ou não autorizado a aceder a base de dados.",
+            "connection": "Não é possivel ligar ao servidor.",
+            "unknown": "Erro desconhecido."
+        }
+    }
+}
